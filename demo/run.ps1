@@ -11,7 +11,7 @@ $root = [System.IO.Path]::GetFullPath(( join-path $PSScriptRoot ..))
 
 
 try {
-  write-host "Value of HELLO is " -NoNewline
+  write-host "What is the value of HELLO is " -NoNewline
   write-host $env:HELLO -ForegroundColor Yellow
   
   
